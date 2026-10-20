@@ -1,34 +1,34 @@
 # Homebrew formula template for tukituki.
 #
-# `homebrew/render.sh` fills in 0.1.17 and the four __SHA__
+# `homebrew/render.sh` fills in 0.1.18 and the four __SHA__
 # placeholders, then commits the rendered file to
-# dvaldivia/homebrew-tukituki/Formula/tukituki.rb.
+# dvaldivia/homebrew-tap/Formula/tukituki.rb.
 
 class Tukituki < Formula
   desc "Terminal UI for managing multiple dev processes"
   homepage "https://github.com/dvaldivia/tukituki"
-  version "0.1.17"
+  version "0.1.18"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.17/tukituki_darwin_arm64.tar.gz"
-      sha256 "862775cb7a33c9ba5ba4007ec19dc7d4021332265205132760a5e5aaba0a6bd9"
+      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.18/tukituki_darwin_arm64.tar.gz"
+      sha256 "7be2e4ea118006cfea5def89642d42bf33420885b63ba9b674df2b0cc98fb047"
     end
     on_intel do
-      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.17/tukituki_darwin_x86_64.tar.gz"
-      sha256 "edd5c3ece3252f319b12b53f1aa51065b39ccea2629ae71e8fb43d99c42285db"
+      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.18/tukituki_darwin_x86_64.tar.gz"
+      sha256 "8d5beb928409a9be96cbf715ccd2e90be359f58db3c179a5ae04eb49cc1153be"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.17/tukituki_linux_arm64.tar.gz"
-      sha256 "0c07856a81de52e8b821269e2ca1cb002b40f1640701dc1fccc357144bd5d60d"
+      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.18/tukituki_linux_arm64.tar.gz"
+      sha256 "fe43d242f85674321ce508dce846d295e359b6ad232aa345db5d4e5907f66d07"
     end
     on_intel do
-      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.17/tukituki_linux_x86_64.tar.gz"
-      sha256 "19b83dea01d2f39922e837643db405db2ff339892613aca72dbacbdadc6d1402"
+      url "https://github.com/dvaldivia/tukituki/releases/download/v0.1.18/tukituki_linux_x86_64.tar.gz"
+      sha256 "4b70b5075704b61dfc072500f8c58c1ed716a852aa7c0fb1161c0051db9cedef"
     end
   end
 
